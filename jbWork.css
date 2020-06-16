@@ -1,0 +1,90 @@
+body {
+    font-family: Verdana, arial, sans-serif;
+    background-color:#7d8da8;
+    }
+#wrapper{
+    width: 60%;
+    margin:auto;
+    background-color: white;
+    border: 2px double black;
+    min-width: 750px;
+}
+header{
+    padding: 10px;
+    padding-top: 1.5em;
+    font-size: 35px;
+    display:grid;
+    grid-template-columns: [start-line1] 20% [end-line1 start-line2]70% [end-line2];
+   }
+header .name{
+    grid-column: 2;
+    padding-left: 3em;
+    padding-top: 1em;
+    float: right;
+}
+.name{  
+    padding-bottom: 3em;
+    font-variant: small-caps;
+    margin-left: auto;
+}
+main .name{
+    padding-bottom: 1em;
+}
+#myImage{
+    grid-column: 1;
+    margin-left: 2em;
+    margin-right: auto;
+    border: 3px inset;
+}
+.programs{
+    text-align: left;
+    margin-left: 3em;
+    font-size: 20px;
+    font-variant: small-caps;
+}
+ul{
+    list-style: none;
+}
+main li{
+   font-variant: normal;
+   font-size: 15px;
+   font-family: 'Lucida Console', 'Courier New', monospace;
+}
+.text{
+    font-size: 20px;
+}
+
+main{
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 3em;
+}
+
+#back{
+    border: 3px outset;
+    background-color:#7d8da8 ;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+#back:active{
+    background-color: black;
+    color: white;
+}
+#buttons a:hover{
+    filter: sepia(100%);
+}
+#buttons a:active{
+     filter:grayscale(100%)
+}
+footer{
+    text-align: center;
+    font-size: 14px;
+    font-style: italic;
+    padding: 10px;
+    margin-top: 10px;
+    align-self: stretch;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    background-color: #7d8da8;
+  }
