@@ -1,3 +1,3 @@
 #MyWebsite
 
-This is a website where I show all my programming work
+A portfolio to all my programming work
